@@ -1,6 +1,7 @@
 #include <iostream>
 #define max 100
 using namespace std;
+//hola holha holhahahahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 
 int main(int argc, char *argv[]) {
 	int nelementos,pos[max][2],vector[max],nmodificar;
@@ -13,14 +14,14 @@ int main(int argc, char *argv[]) {
 	if(nmodificar>nelementos)cout<<"Numero incorrecto";
 	else{
 	for (int i=0;i<nmodificar;i++){
-		cout<<"Ingrese la posición del elemento "<<i+1<<" a modificar: ";cin>>pos[i][0];
-		cout<<"Ingrese el número para reemplazar: ";cin>>pos[i][1];
+		cout<<"Ingrese la posiciÃ³n del elemento "<<i+1<<" a modificar: ";cin>>pos[i][0];
+		cout<<"Ingrese el nÃºmero para reemplazar: ";cin>>pos[i][1];
 	}
 	for (int i=0;i<nmodificar;i++){
 		vector[pos[i][0]]=pos[i][1];
 	}
 	for(int i=0;i<nelementos;i++){
-		cout<<"\nPosición "<<i<<" :"<<vector[i];
+		cout<<"\nPosiciÃ³n "<<i<<" :"<<vector[i];
 	}
 	}
 	return 0;
