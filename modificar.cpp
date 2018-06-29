@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string.h>
+#define MAX 100
 using namespace std;
 
 int main(int argc, char *argv[]) {
