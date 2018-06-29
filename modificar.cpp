@@ -2,6 +2,7 @@
 #include <string.h>
 #define MAX 100
 using namespace std;
+//hola holha holhahahahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
 
 int main(int argc, char *argv[]) {
 	int nelementos,pos[max][2],vector[max],nmodificar;
